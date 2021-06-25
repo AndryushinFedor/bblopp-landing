@@ -15,8 +15,18 @@ body {
     overflow-x: hidden;
     background-color: #DDE7EC;
     position: relative;
+    width: 100%;
+}
 
 
+.header {
+    overflow: hidden;
+    position: relative;
+}
+
+.tags {
+    overflow: hidden;
+    position: relative;
 }
 
 .header {
@@ -203,7 +213,7 @@ a {
     margin-left: -4vw;
 }
 
-.tags {
+.tags Img {
     width: 118vw;
 }
 
@@ -219,6 +229,11 @@ a {
     width: 41vw;
     padding-top: 6vw;
     padding-left: 4vw;
+}
+
+.header {
+    overflow: hidden;
+    position: relative;
 }
 
 .system p {
@@ -291,6 +306,10 @@ a {
 @media screen and (max-width: 768px) {
     h2 {
         font-size: 30px;
+    }
+
+    .tags Img {
+        right: -5%;
     }
 
     .main2 p {
@@ -531,7 +550,7 @@ a {
     }
 
     .f {
-        padding-left: 28vw;
+        padding-left: 20vw;
     }
 
     .header {
