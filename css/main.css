@@ -5,18 +5,18 @@
     font-family: 'Vela Sans';
     src: url('/fonts/VelaSans-Regular.ttf');
     src: local('/'), local('EuclidSquare-Light'),
-        url('../fonts/EuclidSquare-Light.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/EuclidSquare-Light.woff2') format('woff2'),
-        url('../fonts/EuclidSquare-Light.woff') format('woff'),
+        url('/fonts/VelaSans-Bold.ttf') format('truetype'),
+        url('/fonts/VelaSans-ExtraBold.ttf') format('truetype'),
+        url('../fonts/EuclidSquare-Light.woff') format('truetype'),
         url('../fonts/EuclidSquare-Light.ttf') format('truetype');
 }
 
 body {
     overflow-x: hidden;
-}
-
-body {
     background-color: #DDE7EC;
+    position: relative;
+
+
 }
 
 .header {
@@ -26,7 +26,7 @@ body {
 h1 {
     font-family: 'Vela Sans';
     font-style: normal;
-    font-weight: bold;
+    font-weight: 800;
     font-size: 82px;
     line-height: 120%;
 }
@@ -61,6 +61,18 @@ p {
 
     letter-spacing: 0.01em;
     color: #000000;
+}
+
+.MainImg {
+    width: 50vw;
+}
+
+.arrow {
+    width: 10vw;
+}
+
+.logo Img {
+    width: ;
 }
 
 .call {
@@ -169,12 +181,17 @@ a {
     top: -8vw;
 }
 
+.circle Img {
+    width: 47vw;
+}
+
 .community p {
     width: 36vw;
 }
 
 .community Img {
     padding-left: 6vw;
+    width: 45vw;
 }
 
 .community p {
@@ -183,11 +200,19 @@ a {
 
 .tags {
     padding-top: 18vw;
+    margin-left: -4vw;
 }
 
+.tags {
+    width: 118vw;
+}
 
 .cards {
     padding-left: 4vw;
+}
+
+.cards img {
+    width: 41vw;
 }
 
 .system {
@@ -210,6 +235,10 @@ a {
 .finText {
     padding-left: 4vw;
     padding-top: 8vw;
+}
+
+.fin IMG {
+    width: 47vw;
 }
 
 .footer {
@@ -256,5 +285,289 @@ a {
 
     to {
         -webkit-transform: rotate(360deg);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    h2 {
+        font-size: 30px;
+    }
+
+    .main2 p {
+        font-size: 16px;
+        width: 65vw;
+    }
+
+    .cards img {
+        width: 31vw;
+    }
+
+    .card2 {
+        padding-left: 4vw;
+    }
+
+    .communityText p {
+        font-size: 16px;
+    }
+
+    a {
+        font-size: 16px;
+        line-height: 34px;
+        /* identical to box height, or 212% */
+
+        letter-spacing: 0.02em;
+    }
+
+    .try {
+        width: 132px;
+        height: 34px;
+    }
+
+    .communityText p {
+        width: 65vw;
+    }
+
+    .community {
+        flex-direction: column;
+    }
+
+    .community Img {
+        padding-top: 4vw;
+        width: 65vw;
+        padding-left: 0;
+    }
+
+    .system p {
+        font-size: 16px;
+        line-height: 140%;
+        letter-spacing: 0.01em;
+        width: 50vw;
+    }
+
+    .fin IMG {
+        width: 38vw;
+    }
+
+    .fin {
+        padding-left: 0;
+    }
+
+    .call {
+        width: 112px;
+        height: 34px;
+    }
+
+    .btns a {
+        font-size: 16px;
+    }
+
+    .arrow {
+        width: 10vw;
+    }
+
+    .circle {
+        left: -14vw;
+        top: -40vw;
+    }
+
+    .main2 {
+        top: -4vw;
+    }
+
+    .finText {
+        padding-left: 0;
+        padding-top: 18vw;
+    }
+
+    .footer p {
+        font-size: 10px;
+        line-height: 14px;
+        /* identical to box height */
+
+        letter-spacing: 0.02em;
+    }
+
+    .n {
+        display: none;
+    }
+
+    .f {
+        padding-left: 38vw;
+    }
+
+    .header {
+        padding-left: 12vw;
+    }
+
+    .main2 {
+        padding-left: 8vw;
+    }
+
+    .community {
+        padding-left: 12vw;
+    }
+
+    .system {
+        padding-left: 12vw;
+    }
+
+    .fin {
+        padding-left: 12vw;
+    }
+
+    .footer {
+        padding-left: 12vw;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    p {
+        font-size: 14px;
+        line-height: 140%;
+        letter-spacing: 0.01em;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+    .main2 p {
+        font-size: 14px;
+        width: 65vw;
+    }
+
+    .cards {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cards Img {
+        width: 300px;
+        padding-top: 30px;
+    }
+
+    .card2 {
+        padding-left: 0;
+    }
+
+    .communityText p {
+        font-size: 14px;
+    }
+
+    a {
+        font-size: 14px;
+        line-height: 140%;
+        /* identical to box height, or 212% */
+
+        letter-spacing: 0.02em;
+    }
+
+    .try {
+        width: 132px;
+        height: 34px;
+    }
+
+    .communityText p {
+        width: 65vw;
+        padding-bottom: 30px;
+    }
+
+    .community {
+        flex-direction: column;
+    }
+
+    .community Img {
+        padding-top: 10vw;
+        width: 65vw;
+        padding-left: 0;
+    }
+
+    .system p {
+        font-size: 14px;
+        line-height: 140%;
+        letter-spacing: 0.01em;
+        width: 70vw;
+        padding-bottom: 30px;
+    }
+
+
+    .call {
+        width: 112px;
+        height: 34px;
+    }
+
+    .btns a {
+        font-size: 16px;
+    }
+
+    .arrow {
+        width: 10vw;
+    }
+
+    .circle {
+        left: -14vw;
+        top: -40vw;
+    }
+
+    .main2 {
+        top: -4vw;
+    }
+
+    .finText {
+        padding-left: 0;
+        padding-top: 18vw;
+    }
+
+    .footer p {
+        font-size: 10px;
+        line-height: 14px;
+        /* identical to box height */
+
+        letter-spacing: 0.02em;
+    }
+
+    .n {
+        display: none;
+    }
+
+    .f {
+        padding-left: 28vw;
+    }
+
+    .header {
+        padding-left: 12vw;
+    }
+
+    .main2 {
+        padding-left: 8vw;
+    }
+
+    .community {
+        padding-left: 12vw;
+    }
+
+    .system {
+        padding-left: 12vw;
+    }
+
+    .fin {
+        padding-left: 12vw;
+    }
+
+    .footer {
+        padding-left: 12vw;
+    }
+
+    .fin {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .fin Img {
+        width: 80vw;
+    }
+
+    .fin h2 {
+        padding-bottom: 20px;
     }
 }
