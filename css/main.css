@@ -1,0 +1,256 @@
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap');
+
+@font-face {
+    font-family: 'Vela Sans';
+    src: url(/fonts/VelaSans-Regular.ttf);
+    src: url(/fonts/VelaSans-Bold.ttf);
+}
+
+body {
+    overflow-x: hidden;
+}
+
+body {
+    background-color: #DDE7EC;
+}
+
+.header {
+    padding-left: 4vw;
+}
+
+h1 {
+    font-family: 'Vela Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 82px;
+    line-height: 120%;
+}
+
+h2 {
+    font-family: Vela Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 120%;
+    padding-bottom: 2vw;
+}
+
+.main2 p {
+    width: 42vw;
+    padding-bottom: 7vw;
+    padding-left: 4vw;
+}
+
+.card2 {
+    padding-left: 7vw;
+}
+
+p {
+    font-family: 'Vela Sans';
+    font-style: normal;
+    font-weight: 400;
+
+    font-size: 24px;
+    line-height: 140%;
+    /* or 34px */
+
+    letter-spacing: 0.01em;
+    color: #000000;
+}
+
+.call {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+
+    position: static;
+    width: 230px;
+    height: 60px;
+    left: 0px;
+    top: 0px;
+
+    /* Sineva Soft */
+
+    background: #6FB9FF;
+    border-radius: 100px;
+    width: 229px;
+    height: 66px;
+}
+
+.community {
+    display: flex;
+    flex-direction: row;
+    padding-top: 9vw;
+    padding-left: 4vw;
+}
+
+.try {
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: static;
+    width: 259px;
+    height: 66px;
+    left: 0px;
+    top: 300.39px;
+
+    /* White */
+
+    background: #FFFFFF;
+    border-radius: 100px;
+}
+
+button,
+a {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 34px;
+    /* identical to box height, or 113% */
+
+
+    letter-spacing: 0.02em;
+    border: none;
+
+    color: #000000;
+
+}
+
+.logo {
+    padding-top: 4vw;
+    padding-bottom: 8vw;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+}
+
+.btns {
+    display: flex;
+    flex-direction: row;
+}
+
+.btns a {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 34px;
+    /* identical to box height, or 113% */
+    text-decoration: none;
+
+    letter-spacing: 0.02em;
+
+    color: #000000;
+}
+
+.arrow {
+    padding-right: 2vw;
+}
+
+.mainSmall Img {
+    padding-bottom: 3vw;
+}
+
+.circle {
+    position: relative;
+    padding-left: 18vw;
+    top: -8vw;
+}
+
+.community p {
+    width: 36vw;
+}
+
+.community Img {
+    padding-left: 6vw;
+}
+
+.community p {
+    padding-bottom: 2.5vw;
+}
+
+.tags {
+    padding-top: 18vw;
+}
+
+
+.cards {
+    padding-left: 4vw;
+}
+
+.system {
+    width: 41vw;
+    padding-top: 6vw;
+    padding-left: 4vw;
+}
+
+.system p {
+    padding-bottom: 2.5vw;
+}
+
+.fin {
+    display: flex;
+    flex-direction: row;
+    padding-left: 4vw;
+    padding-top: 10vw;
+}
+
+.finText {
+    padding-left: 4vw;
+    padding-top: 8vw;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    padding-top: 8vw;
+    padding-bottom: 2vw;
+    padding-left: 4vw;
+}
+
+.f {
+    display: flex;
+    flex-direction: row;
+    padding-left: 45vw;
+}
+
+.f p {
+    padding-right: 3.5vw;
+}
+
+.footer p {
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    /* identical to box height */
+
+    text-align: right;
+    letter-spacing: 0.02em;
+
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.rotate {
+    -webkit-animation: rotate 25s linear infinite;
+    animation: rotate 25s linear infinite;
+}
+
+@keyframes rotate {
+    from {
+        -webkit-transform: rotate(0deg);
+    }
+
+    to {
+        -webkit-transform: rotate(360deg);
+    }
+}
